@@ -4,6 +4,8 @@ module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'q-a',
     environment: environment,
+    contentSecurityPolicy: { 'connect-src': "'self' https://auth.firebase.com wss://*.firebaseio.com" },
+    firebase: 'https://epicodus-wk3jsreview.firebaseio.com/',
     baseURL: '/',
     locationType: 'auto',
     EmberENV: {
