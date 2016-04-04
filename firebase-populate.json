@@ -1,0 +1,17 @@
+{ "questions": [{
+    "text": "What is the difference between Java and JavaScript?",
+    "author": "Sam",
+    "notes": "I always get them mixed up",
+    "votes": 0
+  }, {
+    "text": "How much should I be making as a junior dev?",
+    "author": "Jo",
+    "notes": "I don't want to get ripped off",
+    "votes": 0
+  }, {
+    "text": "Why are cats so cute?",
+    "author": "Ash",
+    "notes": "They're so great",
+    "votes": 0
+  }]
+}

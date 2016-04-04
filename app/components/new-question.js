@@ -9,10 +9,9 @@ export default Ember.Component.extend({
 
     questionSave1() {
       var params = {
-        text: this.get('text') ? this.get('text') : "",
-        author: this.get('author') ? this.get('author') : "",
-        notes: this.get('notes') ? this.get('notes') : "",
-        votes: 0,
+        text:this.get('text') ? this.get('text') : "",
+        author:this.get('author') ? this.get('author') : "",
+        notes:this.get('notes') ? this.get('notes') : "",
       };
       this.set('addNewQuestion', false),
       this.sendAction('questionSave2', params);
