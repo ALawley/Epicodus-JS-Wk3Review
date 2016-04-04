@@ -5,5 +5,10 @@
 {{edit-question question=model editQuestion="editQuestion"}}
 <button {{action 'delete' model}}>Delete Question</button>
 
+<ul>
+  {{#each model.answers as |answer|}}
+    {{answer-tile answer=answer}}
+  {{/each}}
+</ul>
 
 {{new-answer question=model answerSave2="answerSave3"}}
