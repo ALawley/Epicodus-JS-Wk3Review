@@ -1,12 +1,12 @@
-# Epicodus JavaScript Week 3 Code Review
+# Epicodus JavaScript Week 3 & 4 Code Review
 
-#### Q&A Board, 4/3/2016
+#### Q&A Board, 4/1-/2016
 
 #### By Anna Lawley
 
 ## Description
 
-This app is an exercise in building front ends with the Ember framework. It will allow the user to ask questions and then answer posted questions, as well as edit and delete both answers and questions.
+This app is an exercise in building front ends with the Ember framework. It will allow the user to ask questions and then answer posted questions, as well as edit and delete both answers and questions. Additionally, user can up and downvote questions and answers, favorite questions, and the app will display both popular and unanswered questions.
 
 ## Prerequisites
 
