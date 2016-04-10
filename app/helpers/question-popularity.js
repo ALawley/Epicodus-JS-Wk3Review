@@ -6,7 +6,7 @@ export function questionPopularity(params) {
   if(question.get('answers').get('length') >= 5) {
     return Ember.String.htmlSafe('<span class="glyphicon glyphicon-fire popularity"></span>');
   }
-  if(question.get('answers').get('length') == 0) {
+  if(question.get('answers').get('length') === 0) {
     return Ember.String.htmlSafe('<span class="glyphicon glyphicon-share-alt popularity"></span>');
   }
 }
